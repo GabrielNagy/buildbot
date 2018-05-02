@@ -361,6 +361,8 @@ class TryOptions(base.SubcommandOptions):
         ["repository", None, None,
          "Repository to use, instead of path to working directory."],
 
+        ["project", "P", "",
+         "Project specifier."],
         ["builder", "b", None,
          "Run the trial build on this Builder. Can be used multiple times."],
         ["properties", None, None,
